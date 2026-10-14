@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp">
+    <TextView android:id="@+id/tvStudentName" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="John" android:textStyle="bold"/>
+    <RadioGroup android:id="@+id/rgStatus" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <RadioButton android:id="@+id/rbPresent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Present"/>
+        <RadioButton android:id="@+id/rbAbsent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Absent" android:layout_marginStart="20dp"/>
+    </RadioGroup>
+</LinearLayout>
